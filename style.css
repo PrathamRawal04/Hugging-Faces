@@ -1,0 +1,218 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   /* font-family: Arial; */
+   border: border-box;
+   /* box-sizing: border-box; */
+}
+.navbar {
+    height: 50px;
+    background-color:#0b0f19;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo {
+    height:20px;
+    width: 20px;
+    margin-left: 8px;
+    display:grid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo {
+    height: 30px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("huggingface_logo-noborder.svg");
+    background-size: cover;
+ }
+.border {
+    border: 2px solid #141c2e ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+h1 {
+    height:35px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-Search {
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Search-input {
+    height: 30px;
+    width: 450px;
+    font-size: 1rem;
+    background-color: #0b0f19;
+    color: oklch(0.982 0.006 264.531);
+    outline-style: none;
+    border: none;
+}
+.search-icon {
+    height: 35px;
+    width: 40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(102, 102, 102);  
+    font-size: larger;
+}
+.nav-Search:hover{
+   border-color: rgb(245, 240, 240);
+}
+.models {
+    display: inline-block;
+    text-align: inherit;
+    align-items: center;
+    padding-left: 40px;
+}
+.nav-list {
+    color: oklch(0.878 0.01 258);
+}
+.nav-list a{
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+ }
+.nav-list ul {
+    display: flex;
+} 
+.nav-models {
+    padding-inline: 20px;
+}
+.nav-Datasets  {
+    padding-inline: 20px;
+}
+.nav-Spaces {
+    padding-inline: 20px;
+}
+.nav-Community {
+    padding-inline: 20px;
+}
+.nav-Docs {
+    padding-inline: 20px;
+}
+.nav-Enterprise {
+    padding-inline: 20px;
+}
+.nav-Pricing{
+    padding-inline: 20px;
+}
+.nav-options {
+    padding-left: 40px;
+    border-right: 2px solid #141c2e ;
+    color: grey; 
+}
+select{
+    background-color: transparent;
+    border: none;
+    color: oklch(0.878 0.01 258.531);
+}
+.nav-Signup {
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #141c2e;
+    color: oklch(0.878 0.01 258);
+
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: oklch(0.878 0.01 258.531);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.nav-Signup :hover{
+    background-color: oklch(0.878 0.01 258.531);
+}
+
+/* #main-panel */
+ 
+.body {
+    margin: 0;
+    font-family: 'Segoe UI',sans-serif;
+    background-color:#0b0f19;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    max-width: 750px;
+    padding: 40px;
+    background:radial-gradient(circle at 110% 50%, rgba(251, 247, 247, 0.3), transparent 20%),
+              linear-gradient(0deg, #121621 0%, #0c0f20 40%);
+    border-radius:20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center; 
+}
+.New-flex {
+    height: 20px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: ;
+}
+.huggingface-logo {
+    height: 20px;
+    width: 20px;
+    
+}
+h4{
+    font-size: 10px; 
+    color: grey;
+}
+.flex-panel {
+    height: 100px;
+    width: 500px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      background: radial-gradient(circle at 25% 40%, rgba(251, 247, 247, 0.04), transparent 30%),
+                linear-gradient(,#0c0f20 0%,#0c0f20  40%);
+}
+.Explore-flex {
+    height: 30px;
+    width: 150px;
+    border: 0.1rem double whitesmoke ;
+    border-radius: 15px;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.8);
+}
+.Explore-flex a {
+    padding-top: 2px;
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.browse-flex {
+    height: 20px;
+}
+.browse-flex a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+span{
+    height: 10px;
+    color: grey;
+}
